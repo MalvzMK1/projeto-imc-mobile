@@ -8,4 +8,27 @@
     <string name="your_pass">Votre mot de passe</string>
     <string name="new_user">S\'inscrire</string>
     <string name="logo_name">SENAI</string>
+    <string name="signup_new_user">New user\'s register</string>
+    <string name="edit_name_label">Name:</string>
+    <string name="edit_email_label">E-mail:</string>
+    <string name="edit_pass_label">Password:</string>
+    <string name="edit_weight_label">Weight:</string>
+    <string name="edit_height_label">Height:</string>
+    <string name="hint_name">Insert your name</string>
+    <string name="hint_email">Insert your E-mail</string>
+    <string name="hint_password">Create your password</string>
+    <string name="hint_height">Insert your height</string>
+    <string name="hint_weight">Insert your height</string>
+    <string name="button_text_login">Save user</string>
+    <string name="login_text">Login</string>
+    <string name="user_name">Nome</string>
+    <string name="user_email">User\'s e-mail</string>
+    <string name="weight_value">Weight : xx</string>
+    <string name="calculate_text">Let\'s calculate your body mass index?</string>
+    <string name="height_value">Height : x.xx</string>
+    <string name="button_calculate_text">Calculate</string>
+    <string name="result_text">This is the result of your BMI</string>
+    <string name="result_status">Ideal_weight</string>
+    <string name="below_weight">Below the healthy weight</string>
+    <string name="normal_weight">Normal weight</string>
 </resources>

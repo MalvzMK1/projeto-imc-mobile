@@ -11,7 +11,7 @@
         android:id="@+id/text_bmi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:text="@string/bmi"
         android:textColor="@color/red_senai"
@@ -35,18 +35,18 @@
         android:id="@+id/text_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="16dp"
         android:text="@string/login"
         android:textColor="@color/white"
         android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/edit_text_email_login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <LinearLayout
-        android:id="@+id/linearLayout"
+        android:id="@+id/footer"
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:background="@color/black_senai"
@@ -63,6 +63,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="16dp"
             android:layout_weight="0"
+            android:fontFamily="@font/roboto"
             android:text="@string/logo_name"
             android:textColor="@color/white"
             android:textSize="34sp"
@@ -70,11 +71,11 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/edit_text_email_login"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/input_background"
         android:drawableStart="@drawable/ic_mail_24"
         android:drawablePadding="10dp"
@@ -83,14 +84,14 @@
         android:hint="@string/your_email"
         android:inputType="textEmailAddress"
         android:paddingStart="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/edit_text_password_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/text_login"
         app:layout_constraintTop_toBottomOf="@+id/text_login" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/edit_text_password_login"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -103,10 +104,10 @@
         android:inputType="textPassword"
         android:paddingStart="16dp"
         app:layout_constraintBottom_toTopOf="@+id/button_login"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/edit_text_email_login"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintStart_toStartOf="@+id/edit_text_email_login"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_email_login" />
 
     <Button
         android:id="@+id/button_login"
@@ -116,10 +117,10 @@
         android:background="@drawable/button_background"
         android:text="@string/login"
         app:layout_constraintBottom_toTopOf="@+id/text_signup"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edit_text_password_login"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintStart_toStartOf="@+id/edit_text_password_login"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_password_login" />
 
     <TextView
         android:id="@+id/text_signup"
@@ -128,7 +129,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/new_user"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/footer"
         app:layout_constraintEnd_toEndOf="@+id/button_login"
         app:layout_constraintTop_toBottomOf="@+id/button_login" />
 

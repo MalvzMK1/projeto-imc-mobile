@@ -9,4 +9,27 @@
     <string name="your_pass">Sua senha</string>
     <string name="new_user">Cadastre-se</string>
     <string name="logo_name">SENAI</string>
+    <string name="signup_new_user">Cadastro de novo usuário</string>
+    <string name="edit_name_label">Nome:</string>
+    <string name="edit_email_label">E-mail:</string>
+    <string name="edit_pass_label">Senha:</string>
+    <string name="edit_weight_label">Peso:</string>
+    <string name="edit_height_label">Altura:</string>
+    <string name="hint_name">Insira seu nome</string>
+    <string name="hint_email">Insira seu E-mail</string>
+    <string name="hint_password">Crie sua senha</string>
+    <string name="hint_height">Insira sua altura</string>
+    <string name="hint_weight">Insira seu peso</string>
+    <string name="button_text_login">Salvar usuário</string>
+    <string name="login_text">Login</string>
+    <string name="user_name">Nome</string>
+    <string name="user_email">E-mail do Usuario</string>
+    <string name="weight_value">Peso : xx</string>
+    <string name="calculate_text">Vamos calcular seu índice de massa corporal agora?</string>
+    <string name="height_value">Altura : x.xx</string>
+    <string name="button_calculate_text">Calcular</string>
+    <string name="result_text">Esse é o resultado do seu IMC</string>
+    <string name="result_status">Ideal_weight</string>
+    <string name="below_weight">Below the healthy weight</string>
+    <string name="normal_weight">Normal weight</string>
 </resources>
