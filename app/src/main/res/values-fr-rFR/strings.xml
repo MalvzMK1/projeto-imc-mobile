@@ -23,9 +23,9 @@
     <string name="login_text">Connexion</string>
     <string name="user_name">Nom</string>
     <string name="user_email">Courriel de l\'utilisateur</string>
-    <string name="weight_value">Lester : xx</string>
+    <string name="weight_value">Lester : </string>
     <string name="calculate_text">Calculons votre indice de masse corporelle?</string>
-    <string name="height_value">Taille : x.xx</string>
+    <string name="height_value">Taille : </string>
     <string name="button_calculate_text">Calculer</string>
     <string name="result_text">C\'est le résultat de votre IMC</string>
     <string name="below_weight">En dessous du poids santé</string>

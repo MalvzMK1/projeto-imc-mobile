@@ -1,5 +1,6 @@
 package br.senai.sp.jandira.imc20
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -20,7 +21,7 @@ class CalculatorActivity : AppCompatActivity() {
 
         supportActionBar!!.hide()
 
-        loadUserProfile()
+        loadUserProfile(this)
 
         binding.buttonCalculate.setOnClickListener {
             calculateBmi()
@@ -68,12 +69,12 @@ class CalculatorActivity : AppCompatActivity() {
         }
     }
 
-    private fun loadUserProfile() {
+    private fun loadUserProfile(context: Context) {
         val data = getSharedPreferences("dados", MODE_PRIVATE)
 
         binding.userNameString.text = data.getString("name", "")
         binding.userMailString.text = data.getString("email", "")
-        binding.userWeightString.text = "Weight: ${data.getInt("weight", 0)}Kg"
-        binding.userHeightString.text =  "Height: ${data.getFloat("height", 0.0F)}m"
+        binding.userWeightString.text = "${context.getString(R.string.weight_value)}${data.getInt("weight", 0)}Kg"
+        binding.userHeightString.text =  "${context.getString(R.string.height_value)}${data.getFloat("height", 0.0F)}m"
     }
 }

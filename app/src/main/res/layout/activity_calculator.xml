@@ -155,6 +155,8 @@
             android:ems="10"
             android:inputType="number"
             android:padding="10dp"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/text_hint_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textView14"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />

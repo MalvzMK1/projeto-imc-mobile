@@ -24,9 +24,9 @@
 
     <string name="user_name">User name</string>
     <string name="user_email">User\'s e-mail</string>
-    <string name="weight_value">Weight : xx</string>
+    <string name="weight_value">Weight : </string>
     <string name="calculate_text">Shall we calculate your body mass index now?</string>
-    <string name="height_value">Height : x.xx</string>
+    <string name="height_value">Height : </string>
     <string name="button_calculate_text">Calculate</string>
     <string name="result_text">This is the result of your BMI</string>
     <string name="below_weight">Below the healthy weight</string>

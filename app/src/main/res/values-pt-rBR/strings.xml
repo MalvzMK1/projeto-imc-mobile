@@ -24,9 +24,9 @@
     <string name="login_text">Login</string>
     <string name="user_name">Nome</string>
     <string name="user_email">E-mail do Usuario</string>
-    <string name="weight_value">Peso : xx</string>
+    <string name="weight_value">Peso : </string>
     <string name="calculate_text">Vamos calcular seu índice de massa corporal agora?</string>
-    <string name="height_value">Altura : x.xx</string>
+    <string name="height_value">Altura : </string>
     <string name="button_calculate_text">Calcular</string>
     <string name="result_text">Esse é o resultado do seu IMC</string>
     <string name="below_weight">Abaixo do peso ideal</string>

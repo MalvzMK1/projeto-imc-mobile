@@ -1,5 +1,6 @@
 package br.senai.sp.jandira.imc20
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import br.senai.sp.jandira.imc20.databinding.ActivityResultBinding
@@ -14,6 +15,8 @@ class ResultActivity : AppCompatActivity() {
         binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val openCalculator = Intent(this, CalculatorActivity::class.java)
+
         supportActionBar!!.hide()
 
         // recuperar os valores que estao na intent
@@ -23,5 +26,9 @@ class ResultActivity : AppCompatActivity() {
 
         binding.textViewResult.text = bmi.toString()
         binding.textViewStatus.text = statusBmi
+
+        binding.backButton.setOnClickListener {
+            startActivity(openCalculator)
+        }
     }
 }
