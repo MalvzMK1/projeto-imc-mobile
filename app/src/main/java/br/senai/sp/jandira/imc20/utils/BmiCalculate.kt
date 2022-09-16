@@ -16,13 +16,13 @@ fun getStatusBmi(bmi : Double, context: Context): String {
     } else if (bmi < 25) {
         status = context.getString(R.string.normal_weight)
     } else if (bmi < 30) {
-        status = "Slightly above the weight"
+        status = context.getString(R.string.slightly_above_weight)
     } else if (bmi < 35) {
-        status = "Obesity I"
+        status = context.getString(R.string.obesity_I)
     } else if (bmi < 40) {
-        status = "Obesity II"
+        status = context.getString(R.string.obesity_II)
     } else {
-        status = "Obesity III (Morbid)"
+        status = context.getString(R.string.obesity_III)
     }
 
     return status

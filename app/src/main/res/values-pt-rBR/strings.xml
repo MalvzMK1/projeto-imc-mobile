@@ -29,7 +29,11 @@
     <string name="height_value">Altura : x.xx</string>
     <string name="button_calculate_text">Calcular</string>
     <string name="result_text">Esse é o resultado do seu IMC</string>
-    <string name="result_status">Ideal_weight</string>
-    <string name="below_weight">Below the healthy weight</string>
-    <string name="normal_weight">Normal weight</string>
+    <string name="below_weight">Abaixo do peso ideal</string>
+    <string name="normal_weight">Peso ideal</string>
+    <string name="slightly_above_weight">Um pouco acima do peso ideal</string>
+    <string name="obesity_I">Obesidade I</string>
+    <string name="obesity_II">"Obesidade II "</string>
+    <string name="obesity_III">Obesidade III (Mórbida)</string>
+    <string name="back_button">Voltar</string>
 </resources>

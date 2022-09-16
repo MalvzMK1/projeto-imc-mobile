@@ -31,5 +31,10 @@
     <string name="result_text">This is the result of your BMI</string>
     <string name="below_weight">Below the healthy weight</string>
     <string name="normal_weight">Normal weight</string>
+    <string name="slightly_above_weight">Slightly above the normal weight</string>
+    <string name="obesity_I">Obesity I</string>
+    <string name="obesity_II">"Obesity II "</string>
+    <string name="obesity_III">Obesity III (Morbid)</string>
+    <string name="back_button">Back</string>
 
 </resources>
